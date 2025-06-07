@@ -1,0 +1,16 @@
+Modules faient maisons :
+    - buttons.py -> Basé sur tft_buttons.py mais 100% modifié donc 100% crédité Thomas S. https://github.com/russhughes/st7789s3_mpy/blob/main/examples/tft_buttons.py
+    - connection.py -> Basé sur la doc micropython : https://docs.micropython.org/en/latest/esp32/quickref.html
+    - meteo.py
+    - temperature.py -> Basé sur https://www.upesy.fr/blogs/tutorials/use-dht11-humidity-temperature-sensor-esp32-with-micropython-script
+    - tools.py -> Non terminé
+    - affichage.py
+    - api_txt.py
+
+Modules basés sur internet mais adaptés :
+    - geoloc.py -> https://www.appelsiini.net/2018/micropython-wifi-geolocation/
+
+Modules récupérés sur internet:
+    - Micropython modifié avec des modules pour la gestion du T-Display-S3 -> https://github.com/russhughes/st7789s3_mpy/tree/main
+        -> Inclus notamment tft_config.py et st7789s3.pyi qui permet de gérer l'affichage
+        -> utime.py (il est là mais n'est pas vraiment utilisé xD C'est au cas où)
